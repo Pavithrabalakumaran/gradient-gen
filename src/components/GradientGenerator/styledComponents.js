@@ -22,7 +22,7 @@ export const ResponsiveContainer = styled.div`
 `
 
 export const Heading = styled.h1`
-  color: white;
+  color: black;
   font-size: 24px;
   font-family: 'Roboto';
   font-weight: bold;
@@ -34,7 +34,7 @@ export const Heading = styled.h1`
   }
 `
 export const SpecificDirection = styled.p`
-  color: white;
+  color: black;
   font-size: 24px;
   font-family: 'Roboto';
   font-weight: 600;
@@ -44,4 +44,74 @@ export const SpecificDirection = styled.p`
   @media screen and (min-width: 768px) {
     font-size: 32px;
   }
+`
+
+export const GradientDirectionList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    width: 65%;
+    max-width: 500px;
+  }
+`
+
+export const ColorPickerDes = styled.p`
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+`
+
+export const ColorPickerContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+  min-width: 320px;
+`
+
+export const CustomInputAndColorContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+export const ColorValue = styled.p`
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+`
+
+export const CustomInput = styled.input`
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+`
+
+export const GenerateButton = styled.button`
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #00c9b7;
+  min-width: 25px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 25px;
+  outline: none;
+  cursor: pointer;
 `
